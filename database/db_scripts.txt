@@ -53,3 +53,27 @@ SET ANSI_PADDING OFF
 GO
 
 
+USE [TASKMANAGER]
+GO
+
+/****** Object:  Table [dbo].[Parent_Task]    Script Date: 4/29/2019 6:31:39 AM ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+SET ANSI_PADDING ON
+GO
+
+CREATE TABLE [dbo].[Parent_Task](
+	[Parent_ID] [bigint] IDENTITY(1,1) NOT NULL,
+	[Parent_Task] [varbinary](50) NULL
+) ON [PRIMARY]
+
+GO
+
+SET ANSI_PADDING OFF
+GO
+
+
